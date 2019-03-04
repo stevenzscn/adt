@@ -10,5 +10,6 @@ void PrintList(const ListNode *head) {
             cout << node->value << " ";
             node = node->next;
         }
+        cout << endl;
     }
 }
